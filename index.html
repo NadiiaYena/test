@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Urbanist:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header id="header">
@@ -253,40 +259,118 @@
               </div>
             </div>
           </div>
- </div>
-          <div class="psychoterapy-feedback-right">
-            <form action="#" method="post" class="feedback-form">
-                <div> 
-                <label for="name">Ім'я</label>
-              <input type="text" name="name" placeholder="Enter your name" required />
-              </div>
-              <div>
+        </div>
+        <div class="psychoterapy-feedback-right">
+          <form action="#" method="post" class="feedback-form">
+            <div>
+              <label for="name">Ім'я</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div>
               <label for="email">Email</label>
               <input
                 type="email"
                 name="email"
                 placeholder="Enter your email"
                 required
-              /> 
-              </div>
-              <div>
+              />
+            </div>
+            <div>
               <label for="message">Коментар</label>
               <textarea
                 name="message"
                 placeholder="Enter your message"
                 required
               ></textarea>
-              </div>
-              <button type="submit" class="psychoterapy-button btn-primary">
-                Надіслати
-              </button>
-            </form>
-          </div>
-       
+            </div>
+            <button type="submit" class="psychoterapy-button btn-primary">
+              Надіслати
+            </button>
+          </form>
+        </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer id="footer">
+      <div class="footer-content">
+        <div class="footer-info">
+          <a href="#">
+            <svg
+              class="logo"
+              width="109"
+              height="42"
+              viewBox="0 0 109 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use xlink:href="#logo"></use>
+            </svg>
+          </a>
+          <p>Не знаєте, з чого почати? Наша команда допоможе підібрати психолога та відповість на ваші запитання.</p>
+          <div class="footer-icons">
+            <a href="#telegram" class="icon-link">
+            <svg class="icon-small">
+              <use xlink:href="#telegram-icon"></use>
+            </svg>
+          </a>
+          <a href="#facebook" class="icon-link">
+            <svg class="icon-small">
+              <use xlink:href="#facebook-icon"></use>
+            </svg>
+          </a>
+          <a href="#instagram" class="icon-link">
+            <svg class="icon-small">
+              <use xlink:href="#instagram-icon"></use>
+            </svg>
+          </a>
+          </div>
+        </div>
+        <div class="footer-company">
+          <p class="">Компанія</p>
+          <p>Послуги</p>
+          <p>Психологи</p>
+          <p>Бали</p>
+          <p>Про нас</p>
+        </div>
+        <div class="footer-service">
+          <p>Сервіс</p>
+          <p>Послуги</p>
+          <p>Психологи</p>
+          <p>Бали</p>
+          <p>Про нас</p>
+        </div>
+        <div class="footer-signscribe">
+            <p>Підписатися на розсилку</p>
+            <form action="#" method="post" class="subscribe-form">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <button type="submit" class="psychoterapy-button btn-primary">
+                Відпроавити
+              </button>
+            </form>
+        </div>
+      </div>
+      <div class="copyrigt">
+        <div class="copyrigt-text">
+          <p>Copyrigt © 2024 SpiritSpase</p>
+          <p>Developed by terraweb</p>
+        </div>
+        <div class="copyrigt-text">
+          <p>Psychologists' platform</p>
+          <p>Psychological help</p>
+        </div>
+      </div>
+      
+    </footer>
 
     <svg
       aria-hidden="true"
