@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 8px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+
+  position: relative;
+}
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 10rem;
+  font-weight: 700;
+  color: #333333;
+  line-height: 110.00000000000001%;
+}
+h2{
+    font-size: 6rem;
+    font-weight: 700;
+    color: #333333;
+    line-height: 110.00000000000001%;
+}
+h4{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333333;
+    line-height: 110.00000000000001%;
+}
+p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 132px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8) 25.54%,
+    rgba(0, 0, 0, 0) 94.2%
+  );
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 80px 50px 80px;
+}
+
+.btn-primary {
+  background-color: #709f75;
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+}
+.btn-secondary {
+  background-color: transparent;
+  color: #709f75;
+  padding: 12px 28px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  border: 2px solid #709f75;
+   cursor: pointer;
+}
+.icon {
+  height: 100%;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  max-width: 168px;
+}
+.icon-small {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.icon-link {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+  color: inherit;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  list-style: none;
+}
+.nav-list a {
+  text-decoration: none;
+  text-wrap: nowrap;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.nav-list a:hover {
+  color: #709f75;
+}
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list {
+  margin-right: 30px;
+}
+.header-nav::after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 1px;
+  background-color: #ffffff;
+}
+
+/* Main */
+#psychoterapy {
+  background-image: url(../images/bg/psychoterapy.png);
+  background-size: cover;
+  background-position: center;
+  height: 727px;
+  position: relative;
+}
+.psychoterapy-content {
+  position: absolute;
+  top: 223px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  color: #ffffff;
+  max-width: 569px;
+  max-height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 47px;
+}
+.psychoterapy-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.psychoterapy-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px
+}
+.psychoterapy-description {
+ color:#333333;
+
+}
+.psychoterapy-description::before {
+ display: block;
+ content: "";
+    width: 510px;
+    height: 1px;
+    background-color:#333333;
+margin: 0 auto;
+margin-bottom: 14px;
+ 
+}
+
+#psychoterapy-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    gap: 88px;
+    padding: 120px 150px;
+}
+.psychoterapy-info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+   
+}
+
+.psychoterapy-info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140;
+max-height: 312;
+max-width: 856px;
+gap: 14px;
+}
+
+.psychoterapy-info-subtitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.psychoterapy-info-title {
+    text-align: center;
+}
+.psychoterapy-info-icons span{
+    color: #232323;
+
+}
+.logo-mini {
+    width: 22px;
+    height: 20px;
+}
+.psychoterapy-info-description {
+    color: #909090;
+    text-align: center;
+    max-width: 764px;
+}
+.psychoterapy-info-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.psychoterapy-info-card {
+    background-color: #DDEADE;
+   width: 364px;
+height: 380px;
+gap: 32px;
+border-radius: 48px;
+padding: 24px;
+
+}
+.psychoterapy-info-card {
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-between;
+    
+}
+.card-up{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  
+}
+.card-title {
+    color: #709F75;
+    font-weight: 700;
+}
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+.card-bottom button {
+    width: 100%;
+    margin-top: 16px;
+}
+
+
+#psychoterapy-feedback {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 120px 150px;
+    height: 860px;
+}
+.psychoterapy-feedback-left {
+    max-width: 480px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+.psychoterapy-feedback-left-down {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.psychoterapy-feedback-right {
+    width: 558px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+gap: 32px;
+border-radius: 30px;
+padding: 50px;
+    background-color: #DDEADE;
+} 
+.psychoterapy-feedback-left-up {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+}
+.psychoterapy-feedback-left-up-sudtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.psychoterapy-feedback-left-up-sudtitle p{
+    color: #909090;
+}
+.contact-info {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.contact-info .icon {
+    width: 40px;
+    height: 40px;
+}
+.contact-info-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+}
+.contact-info-item p{
+    color: #909090;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.feedback-form  div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.feedback-form input,
+.feedback-form textarea {
+   width: 100%;
+
+border-radius: 20px;
+border: 1px solid #D9D9D9;
+padding: 22px 32px;
+
+}
+.feedback-form input{
+height: 61px;
+}
+.feedback-form textarea {
+    height: 152px;
+    resize: none;
+}
+.feedback-form label {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 16px;
+   
+}
+.feedback-form input::placeholder,
+.feedback-form textarea::placeholder  {
+    color: #909090;
+    font-size: 2rem;
+}
+
+.contact-pse::after{
+    position: absolute;
+    bottom: -40px;
+    content: "";
+    display: block;
+    margin-bottom: 20px;
+    height: 1px;
+    width: 100%;
+    background-color: #909090;
+}
+.contact-pse::before{
+    position: absolute;
+    top: -20px;
+    content: "";
+    display: block;
+    margin-bottom: 20px;
+    height: 1px;
+    width: 100%;
+    background-color: #909090;
+}
+
+
