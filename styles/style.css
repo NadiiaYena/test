@@ -483,7 +483,19 @@ height: 61px;
     color: #ffffff;
     font-family: 'Manrope', sans-serif;
     line-height: 160%;
+    position: relative;
     
+   
+}
+.copyrigt-text p:first-child::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 16px;
+    background-color: #ffffff;
+    bottom:  0;
+    right: -20px;
    
 }
 .footer-content {
@@ -554,4 +566,10 @@ height: 61px;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
+}
+#animatedEmoji_sad {
+    rotate: 7.7deg;
+}
+#animatedEmoji_kiss{
+    rotate: -6.39deg;
 }
