@@ -527,6 +527,13 @@ height: 61px;
     color: #939393;
     margin-bottom: 10px;
 }
+.footer-menu-item {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 150%;
+   
+}
 
 .footer-info {
     display: flex;
