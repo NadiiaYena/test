@@ -7,24 +7,24 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!emojiElementCry) return;
 
     const emojiStatesSad = [
-        { src: '../images/icons/sad.png', delay: 500 },
-        { src: '../images/icons/sad_1.png', delay: 200 },
-       { src: '../images/icons/sad.png', delay: 700 },
-        { src: '../images/icons/sad_1.png', delay: 200 },
+        { src: './images/icons/sad.png', delay: 500 },
+        { src: './images/icons/sad_1.png', delay: 200 },
+       { src: './images/icons/sad.png', delay: 700 },
+        { src: './images/icons/sad_1.png', delay: 200 },
       
     ];
      const emojiStatesKiss = [
-        { src: '../images/icons/kiss.png', delay: 500 },
-        { src: '../images/icons/kiss_1.png', delay: 1700 },
-        { src: '../images/icons/kiss.png', delay: 500 },
-        { src: '../images/icons/kiss_1.png', delay: 1500 },
+        { src: './images/icons/kiss.png', delay: 500 },
+        { src: './images/icons/kiss_1.png', delay: 1700 },
+        { src: './images/icons/kiss.png', delay: 500 },
+        { src: './images/icons/kiss_1.png', delay: 1500 },
         
     ];
     const emojiStatesCry = [
-        { src: '../images/icons/cry.png', delay: 1000 },
-        { src: '../images/icons/cry_1.png', delay: 400 },
-          { src: '../images/icons/cry.png', delay: 1500 },
-        { src: '../images/icons/cry_1.png', delay: 400 },
+        { src: './images/icons/cry.png', delay: 1000 },
+        { src: './images/icons/cry_1.png', delay: 400 },
+          { src: './images/icons/cry.png', delay: 1500 },
+        { src: './images/icons/cry_1.png', delay: 400 },
         
         
     ];
